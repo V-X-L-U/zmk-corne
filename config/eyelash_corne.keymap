@@ -91,10 +91,10 @@
         layer2 {
             display-name = "MOVE";
             bindings = <
-&bt BT_CLR_ALL  &none         &none         &none         &msc SCRL_UP    &mkp LCLK             &none             &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &none   &none
-&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &msc SCRL_DOWN  &mkp RCLK       &none &none &none       &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT       &kp F11 &kp F12
-&kp LEFT_SHIFT  &kp F1        &kp F2        &kp F3        &kp F4          &kp F5          &none &none             &kp F6         &kp F7         &kp F8       &kp F9          &kp F10 &kp RIGHT_SHIFT
-                                                            &trans &trans &trans                                  &trans &trans &trans
+&bt BT_CLR_ALL  &kp C_MUTE    &kp C_VOL_DOWN  &kp C_VOL_UP  &msc SCRL_UP    &mkp LCLK             &none             &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &kp C_BRI_DOWN &kp C_BRI_UP
+&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &msc SCRL_DOWN  &mkp RCLK       &none &none &none       &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT       &kp F11        &kp F12
+&kp LEFT_SHIFT  &kp F1        &kp F2          &kp F3        &kp F4          &kp F5          &none &none             &kp F6         &kp F7         &kp F8       &kp F9          &kp F10        &kp RIGHT_SHIFT
+                                                            &trans &trans &trans                                    &trans &trans &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
